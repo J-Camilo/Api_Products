@@ -1,0 +1,30 @@
+###
+POST Http://localhost:9000/Api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Juan Camilo Fong",
+    "email" : "jc4milo311@gmail.com",
+    "password" : "12345678",
+    "preference": "supervisor"
+}
+  
+###
+GET Http://localhost:9000/Api/users HTTP/1.1
+
+###
+GET Http://localhost:9000/Api/users/6440346a0ce48e90652cef5b HTTP/1.1
+
+### 
+PUT Http://localhost:9000/Api/users/6440346a0ce48e90652cef5b  HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "hola"
+}
+
+
+###
+DELETE Http://localhost:9000/Api/users/6443374f0ce48e90652cf28f  HTTP/1.1
+
+
