@@ -6,7 +6,7 @@ const formsSchema = mongoose.Schema({
     },
     link: {
         type: String,
-        required: false
+        required: false 
     },
     name: {
         type: String,
