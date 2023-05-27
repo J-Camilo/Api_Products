@@ -1,12 +1,12 @@
 ###
-POST Http://localhost:9000/Api/users HTTP/1.1
+POST Http://localhost:9000/Api/forms HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Juan Camilo Fong",
-    "email" : "jc4milo311@gmail.com",
-    "password" : "12345678",
-    "preference": "supervisor"
+   "preference": 1,
+    "link": "https://es.stackoverflow.com/questions/72141/obtener-el-valor-del-select-seleccionado-javascript-dom",
+    "name": "Formulario de prueba",
+    "icon": 4
 }
   
 ###
