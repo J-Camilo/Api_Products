@@ -9,7 +9,7 @@ const productsSchema = mongoose.Schema({
         required: false
     },
     amount: {
-        type: String,
+        type: Number,
         required: false
     },
     state: {
@@ -17,7 +17,7 @@ const productsSchema = mongoose.Schema({
         required: false
     },
     limit: {
-        type: String,
+        type: Number,
         required: false
     }
 });
