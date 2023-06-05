@@ -19,6 +19,10 @@ const productsSchema = mongoose.Schema({
     limit: {
         type: Number,
         required: false
+    },
+    alert: {
+        type: Number,
+        required: false
     }
 });
 
